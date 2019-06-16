@@ -1,0 +1,51 @@
+#meme-text{
+    position: absolute;
+    left: 50%;
+    top:30px;
+    transform: translate(-50%, -50%);
+    color:red;
+    z-index: 1;
+    font-size: 45px;
+    width:300px; 
+    overflow: hidden;
+    word-break: break-all;
+}
+
+#memer{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: blue
+}
+
+#plswork{
+    height:500px;
+    width: 500px;
+}
+
+
+#color{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: blue
+
+}
+
+#new-color{
+    border-color: red;
+    width: 100px;
+    border-radius: 5px
+}
+
+#myImg{
+    height:100px;
+    width: 100px
+}
+
+#meme-stop{
+    border-color: red;
+    width: 100px;
+    border-radius: 5px;
+    margin:15px;
+}
