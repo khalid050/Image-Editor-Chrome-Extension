@@ -11,7 +11,7 @@
         }
     ],
     "browser_action":{
-        "default_icon": "sasuke.png",
+        "default_icon": "meme.png",
         "default_popup": "index.html"
     },
     "permissions" : ["storage"]
