@@ -1,11 +1,9 @@
-function waitAFuckingMinute(){
+function imgPause(){
     chrome.storage.sync.get(['img'],function(result){
         document.querySelector('#plswork').src = result.img;
-        console.log('epicly bad ' + result.img);
     })
-    console.log('in popup');
 }
-setTimeout(waitAFuckingMinute,1000);
+setTimeout(imgPause,1000);
 
 
 let inputVal = document.querySelector('#memer').value
